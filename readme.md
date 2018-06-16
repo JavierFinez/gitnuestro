@@ -80,3 +80,6 @@ git reset --hard 1b79f9f
 
 - ¿Qué comando o comandos usaste en el punto 33?
 
+git reflog
+git reset --hard 54d4e5b
+
