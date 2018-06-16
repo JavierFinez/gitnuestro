@@ -1,4 +1,4 @@
-- ¿Qué comando utilizaste en el paso 11? ¿Por qué?
+*¿Qué comando utilizaste en el paso 11? ¿Por qué?*
 
 	git reset --hard HEAD~1
 
@@ -37,23 +37,23 @@ No causó conflicto, es un fast forward porque las ramas se pueden apilar con lo
 
    git log --graph --decorate --pretty=oneline
 
-- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 
   Si podría ser fast-forward ya que es su padre y todo el trabajo de master está en title, basta con apuntar el HEAD en master al último commit con el cambio en el que incluimos el titulo.gi
 
-- ¿Qué comando o comandos utilizaste en el paso 27?
+- ¿Qué comando o comandos utilizaste en el paso 27?
 
   git reset HEAD~1
 
   No uso la opción hard para no perder los cambios del working copy.
 
-- ¿Qué comando o comandos utilizaste en el paso 28?
+- ¿Qué comando o comandos utilizaste en el paso 28?
 
   git reset --hard HEAD
 
   Descartamos los cambios en el working copy pero nos quedamos en el commit actual.
 
-- ¿Qué comando o comandos utilizaste en el paso 29?
+- ¿Qué comando o comandos utilizaste en el paso 29?
 
 Si intento usar:
 
@@ -68,17 +68,17 @@ git branch -D title
 git branch -D title
 Deleted branch title (was 54d4e5b).
 
-- ¿Qué comando o comandos utilizaste en el paso 30?
+- ¿Qué comando o comandos utilizaste en el paso 30?
 
 git reflog para localizar el commit donde se hizo el merge de title
 git reset --hard 552c586 para rehacerlo
 
-- ¿Qué comando o comandos usaste en el paso 32?
+- ¿Qué comando o comandos usaste en el paso 32?
 
 git log
 git reset --hard 1b79f9f
 
-- ¿Qué comando o comandos usaste en el punto 33?
+- ¿Qué comando o comandos usaste en el punto 33?
 
 git reflog
 git reset --hard 54d4e5b
